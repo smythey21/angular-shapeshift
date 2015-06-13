@@ -1,7 +1,7 @@
 simple-shapeshift-angular-directive
 ============================
 
-A simple AngularJS directive for ShapeShift.js. Just place the shapeshift.js directive into you Angular app and give it a list of image sources:
+A simple AngularJS directive for ShapeShift.js. Just place the [shapeshift directive] (https://github.com/smythey21/simple-shapeshift-angular-directive/blob/master/app/directives/shapeshift.js) into you Angular app and give it a list of image sources:
 
 ```
 $scope.imgSources = [ "img1", "img2", "img3" ];

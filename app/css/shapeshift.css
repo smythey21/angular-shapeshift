@@ -1,0 +1,10 @@
+.shapeshift {
+	position: relative;
+	width: 100%;
+}
+
+.shapeshift div {
+	height: 128px;
+	position: absolute;
+	width: 128px;
+}

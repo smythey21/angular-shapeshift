@@ -1,0 +1,11 @@
+{
+	"name": "shapeshift-angular-ng-repeat-directive",
+	"version": "1.0.0",
+	"description": "Angular directive for creating shapeshift containers from a list of images",
+	"dependencies": {
+		"angular": "~1.2",
+	    "jquery": "~2.1.1",
+	    "jquery-ui": "~1.11.4",
+	    "jquery.shapeshift": "~2.0.0"
+	}
+}

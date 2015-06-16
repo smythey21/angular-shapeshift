@@ -12,7 +12,8 @@ angular.module('app').directive('shapeshift', [ '$compile', '$timeout',
             },
             restrict: "E",
             scope: {
-                images: '='
+                images: '=',
+                columnWidth: '@columnwidth'
             },
             link: function (scope, element, attrs) {
                 // Compile the html, because we have some angular syntax in there
@@ -29,7 +30,7 @@ angular.module('app').directive('shapeshift', [ '$compile', '$timeout',
                         animateOnInit: false,
                         animationSpeed: 225,
                         animationThreshold: 100,
-                        colWidth: 150,
+                        colWidth: parseInt(scope.columnWidth),
                         align: "center",
                         dragClone: false,
                         deleteClone: true,

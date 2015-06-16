@@ -1,5 +1,5 @@
 angular.module('app').controller('controller', ['$scope', function($scope) {
-    $scope.socialMedias = [ "https://raw.githubusercontent.com/meanjs/mean/master/public/modules/users/img/buttons/facebook.png",
+    $scope.images = [ "https://raw.githubusercontent.com/meanjs/mean/master/public/modules/users/img/buttons/facebook.png",
         "https://raw.githubusercontent.com/meanjs/mean/master/public/modules/users/img/buttons/github.png",
         "https://raw.githubusercontent.com/meanjs/mean/master/public/modules/users/img/buttons/google.png",
         "https://raw.githubusercontent.com/meanjs/mean/master/public/modules/users/img/buttons/linkedin.png",

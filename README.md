@@ -11,7 +11,7 @@ $scope.images = [ "img1", "img2", "img3" ];
 <shapeshift images="images" columnWidth="150"/>
 ```
 
-[See example] (https://jsfiddle.net/smythey21/de5tecp3/17/) on JSFiddle. ShapeShift can be found [here] (https://github.com/McPants/jquery.shapeshift).
+[See example] (https://jsfiddle.net/smythey21/de5tecp3/19/) on JSFiddle. ShapeShift can be found [here] (https://github.com/McPants/jquery.shapeshift).
 
 Make sure to install bower dependencies before running:
 

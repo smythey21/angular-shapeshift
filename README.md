@@ -5,32 +5,32 @@ A simple AngularJS directive for ShapeShift.js.
 
 ### How To Use
 
-1. Install the angular-shapeshift bower package
+* Install the angular-shapeshift bower package
 
 ```bash
 $ bower install angular-shapeshift
 ```
 
-2. Add angular-shapeshift as a dependency to your angular module:
+* Add angular-shapeshift as a dependency to your angular module:
 
 ```
 angular.module("myAngularModule", ["angular-shapeshift"]);
 ```
 
-3. Define your images within your angular controller:
+* Define your images within your angular controller:
 
 ```
 $scope.images = [ "img1", "img2", "img3" ];
 ```
 
-4. Add references to angular-shapeshift.min.js and angular-shapeshift.min.css:
+* Add references to angular-shapeshift.min.js and angular-shapeshift.min.css:
 
 ```
-    <script src="public/lib/angular-shapeshift/dist/angular-shapeshift.min.js"></script>
-    <link href="public/lib/angular-shapeshift/dist/angular-shapeshift.min.css" rel="stylesheet" type="text/css" />
+<script src="public/lib/angular-shapeshift/dist/angular-shapeshift.min.js"></script>
+<link href="public/lib/angular-shapeshift/dist/angular-shapeshift.min.css" rel="stylesheet" type="text/css" />
 ```
 
-5. Add a shapeshift element to your html. Just give it a list of image sources and (optionally) specify a column width:
+* Add a shapeshift element to your html. Just give it a list of image sources and (optionally) specify a column width:
 
 ```
 <shapeshift images="images" columnWidth="150"/>

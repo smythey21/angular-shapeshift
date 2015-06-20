@@ -1,11 +1,29 @@
 angular-shapeshift
 ============================
 
-A simple AngularJS directive for ShapeShift.js. Just place the [shapeshift directive] (https://github.com/smythey21/simple-shapeshift-angular-directive/blob/master/app/directives/shapeshift.js) into your Angular app, give it a list of image sources and (optionally) specify a column width:
+A simple AngularJS directive for ShapeShift.js.
+
+## How To Use
+
+1. Install the angular-shapeshift bower package
+
+```bash
+$ bower install angular-shapeshift
+```
+
+2. Add angular-shapeshift as a dependency to your angular module:
+
+```
+angular.module("myAngularModule", ["angular-shapeshift"]);
+```
+
+3. Define your images within your angular controller:
 
 ```
 $scope.images = [ "img1", "img2", "img3" ];
 ```
+
+4. Add a shapeshift element to your html. Just give it a list of image sources and (optionally) specify a column width:
 
 ```
 <shapeshift images="images" columnWidth="150"/>
@@ -13,11 +31,11 @@ $scope.images = [ "img1", "img2", "img3" ];
 
 [See example] (https://jsfiddle.net/smythey21/de5tecp3/19/) on JSFiddle. ShapeShift can be found [here] (https://github.com/McPants/jquery.shapeshift).
 
-Make sure to install bower dependencies before running:
+## Gotchas
 
-```bash
-$ bower install
-```
+This directive will not work if placed within modal components, as the image positions need to be determined when angular parses the directive.
 
+## Need More Shapeshift Options?
 
+Its possible you'll want to change some of the default settings defined in the [shapeshift directive] (https://github.com/smythey21/angular-shapeshift/blob/master/app/directives/shapeshift.js). If so, just place this [shapeshift directive] (https://github.com/smythey21/angular-shapeshift/blob/master/app/directives/shapeshift.js) into your Angular app and customize as needed.
 

@@ -10,10 +10,11 @@ module.exports = function(grunt) {
                 // the banner is inserted at the top of the output
                 banner: '/*! angular-shapeshift <%= grunt.template.today("dd-mm-yyyy") %> */\n'
             },
-            dist: {
-                files: {
-                    'dist/angular-shapeshift.min.js': ['app/directives/shapeshift.js']
-                }
+            min: {
+                files: [{
+                    src: ['app/app.js', 'app/directives/shapeshift.js' ],
+                    dest: 'dist/angular-shapeshift.min.js'
+                }]
             }
         },
         cssmin: {

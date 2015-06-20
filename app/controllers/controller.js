@@ -1,4 +1,4 @@
-angular.module('smythey21.angular-shapeshift').controller('controller', ['$scope', function($scope) {
+angular.module('angular-shapeshift').controller('controller', ['$scope', function($scope) {
     $scope.images = [ "https://raw.githubusercontent.com/meanjs/mean/master/public/modules/users/img/buttons/facebook.png",
         "https://raw.githubusercontent.com/meanjs/mean/master/public/modules/users/img/buttons/github.png",
         "https://raw.githubusercontent.com/meanjs/mean/master/public/modules/users/img/buttons/google.png",

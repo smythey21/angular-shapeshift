@@ -1,4 +1,4 @@
-simple-shapeshift-angular-directive
+angular-shapeshift
 ============================
 
 A simple AngularJS directive for ShapeShift.js. Just place the [shapeshift directive] (https://github.com/smythey21/simple-shapeshift-angular-directive/blob/master/app/directives/shapeshift.js) into your Angular app, give it a list of image sources and (optionally) specify a column width:

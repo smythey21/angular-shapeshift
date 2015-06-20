@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('app').directive('shapeshift', [ '$compile', '$timeout',
+angular.module('smythey21.angular-shapeshift').directive('shapeshift', [ '$compile', '$timeout',
     function($compile, $timeout) {
         return {
             template: function(elem, attrs){
